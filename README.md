@@ -11,7 +11,7 @@ Welcome to the official distribution point for all my Android applications. Here
 
 | App Name | Category | Latest Version | Status | Download |
 | :--- | :--- | :--- | :--- | :--- |
-| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest) |
+| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/PDFMaster-Latest.apk) |
 
 ---
 
@@ -42,3 +42,4 @@ A powerful, all-in-one PDF utility for your Android device. Edit, Convert, Scan,
 
 ---
 © 2026 Gobinda. All rights reserved.
+

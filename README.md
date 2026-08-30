@@ -11,11 +11,11 @@ Welcome to the official distribution point for all my Android applications. Here
 
 | App Name | Category | Latest Version | Status | Download |
 | :--- | :--- | :--- | :--- | :--- |
-| **MyMusic** | Music | ![Version](https://img.shields.io/badge/version-0.5.4-blue) | ? Stable | [Download APK](MyMusic-Latest.apk) |
-| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=PDFMaster*&label=v&style=flat-square) | ? Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk) |
-| **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=ChatMaster*&label=v&style=flat-square) | ? Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
-| **HtmlRun** | Developer Tools | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=HtmlRun*&label=v&style=flat-square) | ? Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
-| **Brain Reminder** | Utility | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=BrainReminder*&label=v&style=flat-square) | ? Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk) |
+| **MyMusic** | Music | ![Version](https://img.shields.io/badge/version-0.5.4-blue) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk) |
+| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=PDFMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk) |
+| **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=ChatMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
+| **HtmlRun** | Developer Tools | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=HtmlRun*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
+| **Brain Reminder** | Utility | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=BrainReminder*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk) |
 
 ---
 
@@ -72,4 +72,4 @@ A modern reminder and event tracking application designed to help you organize y
 - **Privacy First:** Our apps do not collect or share personal data unless explicitly stated.
 
 ---
-� 2026 Gobinda. All rights reserved.
+� 2026 Gobinda. All rights reserved.

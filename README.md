@@ -12,10 +12,20 @@ Welcome to the official distribution point for all my Android applications. Here
 | App Name | Category | Latest Version | Status | Download |
 | :--- | :--- | :--- | :--- | :--- |
 | **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/PDFMaster-Latest.apk) |
+| **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/ChatMaster-Latest.apk) |
 
 ---
 
 ## 📂 Featured Apps
+
+### Chat Master
+A versatile communication tool designed for seamless messaging and connection management.
+
+**Key Features:**
+- 💬 **Quick Messaging:** Send messages efficiently.
+- 📞 **Call History:** Manage and view your call logs with clear status indicators.
+- 🔗 **WhatsApp Integration:** Directly open chats in WhatsApp or WhatsApp Business.
+- 🎨 **Modern UI:** Clean and intuitive interface built with Jetpack Compose.
 
 ### PDF Master 101
 A powerful, all-in-one PDF utility for your Android device. Edit, Convert, Scan, and Manage your PDF documents with ease.

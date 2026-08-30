@@ -11,9 +11,11 @@ Welcome to the official distribution point for all my Android applications. Here
 
 | App Name | Category | Latest Version | Status | Download |
 | :--- | :--- | :--- | :--- | :--- |
+| **MyMusic** | Music | ![Version](https://img.shields.io/badge/version-0.5.4-blue) | ✅ Stable | [Download APK](MyMusic-Latest.apk) |
 | **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=PDFMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk) |
 | **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=ChatMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
 | **HtmlRun** | Developer Tools | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=HtmlRun*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
+| **Brain Reminder** | Utility | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=BrainReminder*&label=v&style=flat-square) | ✅ Stable | [Download APK](BrainReminder-Latest.apk) |
 
 ---
 
@@ -45,6 +47,15 @@ A powerful, all-in-one PDF utility for your Android device. Edit, Convert, Scan,
 - 📝 **PDF Editor:** Add text, images, and annotations.
 - 🔄 **Converter:** Image to PDF, Text to PDF, and more.
 - 🔒 **Secure:** All processing happens offline on your device.
+
+### Brain Reminder
+A modern reminder and event tracking application designed to help you organize your life.
+
+**Key Features:**
+- 📅 **Smart Calendar**: Integrated view of all your events and tasks.
+- 🔔 **Custom Notifications**: Never miss an important event.
+- 💾 **Local Storage**: Your data stays safe on your device using Room database.
+- 🎨 **Material 3 Design**: Clean and modern user interface.
 
 ---
 

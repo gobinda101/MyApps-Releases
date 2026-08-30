@@ -23,7 +23,7 @@
 
 | App Name | Category | Build Version | Status | Distribution |
 | :--- | :--- | :--- | :--- | :--- |
-| **MyMusic** | 🎵 Audio/Music | ![v0.5.4](https://img.shields.io/badge/v-0.5.4-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk) |
+| [**MyMusic**](./apps/MyMusic) | 🎵 Audio/Music | ![v0.5.4](https://img.shields.io/badge/v-0.5.4-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk) |
 | **PDF Master 101** | 📄 Productivity | ![v1.0.3](https://img.shields.io/badge/v-1.0.3-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk) |
 | **Chat Master** | 💬 Messaging | ![v1.1.1](https://img.shields.io/badge/v-1.1.1-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
 | **HtmlRun** | 🛠️ Development | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |

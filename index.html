@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gobinda101 Labs | Official Release Hub</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
+        .hero-gradient { background: radial-gradient(circle at top right, #1e293b, #0f172a); }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3); border-color: #3b82f6; }
+    </style>
+</head>
+<body class="hero-gradient min-h-screen">
+
+    <!-- Navbar -->
+    <nav class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
+        <div class="flex items-center space-x-3">
+            <div class="bg-blue-600 p-2 rounded-lg">
+                <i class="fas fa-rocket text-xl"></i>
+            </div>
+            <span class="text-2xl font-bold tracking-tight">Gobinda101 <span class="text-blue-500">Labs</span></span>
+        </div>
+        <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
+            <a href="#catalog" class="hover:text-blue-500 transition">Catalog</a>
+            <a href="#security" class="hover:text-blue-500 transition">Security</a>
+            <a href="#install" class="hover:text-blue-500 transition">Installation</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <header class="max-w-4xl mx-auto px-6 pt-16 pb-24 text-center">
+        <h1 class="text-5xl md:text-7xl font-extrabold mb-6 tracking-tight leading-tight">
+            Next-Gen <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500">Android Solutions</span>
+        </h1>
+        <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+            Experience premium, ad-free, and cryptographically verified applications engineered for performance and privacy.
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="#catalog" class="bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-full font-bold transition shadow-lg shadow-blue-900/20">Explore Catalog</a>
+            <a href="https://github.com/gobinda101" target="_blank" class="glass px-8 py-4 rounded-full font-bold hover:bg-slate-800 transition">View GitHub</a>
+        </div>
+    </header>
+
+    <!-- Catalog Section -->
+    <section id="catalog" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex items-center justify-between mb-12">
+            <div>
+                <h2 class="text-3xl font-bold mb-2">Application Catalog</h2>
+                <p class="text-slate-400">Official stable releases from our cloud pipeline.</p>
+            </div>
+            <div class="bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700 text-xs font-semibold text-slate-300">
+                <i class="fas fa-sync-alt fa-spin mr-2 text-blue-500"></i> Auto-Sync Enabled
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- MyMusic Card -->
+            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="bg-blue-500/10 p-4 rounded-2xl">
+                        <i class="fas fa-music text-3xl text-blue-500"></i>
+                    </div>
+                    <span class="bg-blue-500/10 text-blue-400 text-xs font-bold px-3 py-1 rounded-full border border-blue-500/20">v0.5.4</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-2">MyMusic</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Enterprise-grade audio engine with minimalist Material 3 design and dynamic theming.</p>
+                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Ad-Free Experience</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Material You Support</div>
+                </div>
+                <a href="https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk" class="block text-center bg-white text-slate-900 py-3 rounded-xl font-bold hover:bg-blue-50 transition">Download APK</a>
+            </div>
+
+            <!-- PDF Master Card -->
+            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="bg-orange-500/10 p-4 rounded-2xl">
+                        <i class="fas fa-file-pdf text-3xl text-orange-500"></i>
+                    </div>
+                    <span class="bg-orange-500/10 text-orange-400 text-xs font-bold px-3 py-1 rounded-full border border-orange-500/20">v1.0.3</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-2">PDF Master 101</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Your all-in-one document toolbox. Scan, edit, and convert with AI-powered edge detection.</p>
+                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Offline Processing</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> No Data Collection</div>
+                </div>
+                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
+            </div>
+
+            <!-- HtmlRun Card -->
+            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
+                <div class="flex justify-between items-start mb-6">
+                    <div class="bg-purple-500/10 p-4 rounded-2xl">
+                        <i class="fas fa-code text-3xl text-purple-500"></i>
+                    </div>
+                    <span class="bg-purple-500/10 text-purple-400 text-xs font-bold px-3 py-1 rounded-full border border-purple-500/20">v1.0</span>
+                </div>
+                <h3 class="text-2xl font-bold mb-2">HtmlRun</h3>
+                <p class="text-slate-400 text-sm mb-6 leading-relaxed">High-performance web runtime and IDE for professional mobile-first development.</p>
+                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Intelli-Editor</div>
+                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> System API Bridge</div>
+                </div>
+                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Security Section -->
+    <section id="security" class="bg-slate-900/50 border-y border-slate-800 py-24">
+        <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-16 items-center">
+            <div>
+                <span class="text-blue-500 font-bold tracking-widest text-xs uppercase mb-4 block">Security Protocol</span>
+                <h2 class="text-4xl font-extrabold mb-6 leading-tight">Engineered for <span class="text-blue-400">Security & Integrity.</span></h2>
+                <p class="text-slate-400 text-lg mb-8 leading-relaxed">
+                    Every binary distributed by <b>Gobinda101 Labs</b> follows a strict automated security protocol. No manual intervention ensures the code you see is exactly what you run.
+                </p>
+                <div class="grid grid-cols-2 gap-6">
+                    <div class="glass p-6 rounded-2xl">
+                        <i class="fas fa-shield-halved text-2xl text-blue-500 mb-3"></i>
+                        <h4 class="font-bold mb-1 text-sm">Signed</h4>
+                        <p class="text-xs text-slate-500 uppercase font-medium">RSA-2048 Bit Keys</p>
+                    </div>
+                    <div class="glass p-6 rounded-2xl">
+                        <i class="fas fa-cloud-bolt text-2xl text-blue-500 mb-3"></i>
+                        <h4 class="font-bold mb-1 text-sm">Automated</h4>
+                        <p class="text-xs text-slate-500 uppercase font-medium">GitHub Actions CI/CD</p>
+                    </div>
+                </div>
+            </div>
+            <div class="relative">
+                <div class="absolute -inset-4 bg-blue-500/10 blur-3xl rounded-full"></div>
+                <div class="glass p-10 rounded-[3rem] relative border-blue-500/20">
+                    <div class="space-y-8">
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center font-bold">1</div>
+                            <span class="font-semibold">Encrypted Source Push</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-slate-800 w-10 h-10 rounded-full flex items-center justify-center font-bold">2</div>
+                            <span class="font-semibold text-slate-400">Isolated Cloud Build</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-slate-800 w-10 h-10 rounded-full flex items-center justify-center font-bold">3</div>
+                            <span class="font-semibold text-slate-400">Cryptographic Signing</span>
+                        </div>
+                        <div class="flex items-center space-x-4">
+                            <div class="bg-blue-600/20 border border-blue-500/50 w-10 h-10 rounded-full flex items-center justify-center">
+                                <i class="fas fa-check text-blue-400"></i>
+                            </div>
+                            <span class="font-bold text-blue-400 italic underline">Verified Deployment</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="max-w-7xl mx-auto px-6 py-20 text-center border-t border-slate-800 mt-20">
+        <div class="flex flex-col items-center">
+            <div class="bg-slate-800/50 p-3 rounded-xl mb-6">
+                <i class="fas fa-rocket text-2xl text-blue-500"></i>
+            </div>
+            <h4 class="text-xl font-bold mb-2 tracking-tight">Gobinda101 Labs</h4>
+            <p class="text-slate-500 text-sm mb-10 max-w-sm">Leading the next wave of minimalist and efficient mobile experiences.</p>
+            <div class="flex space-x-6 text-slate-400 mb-12">
+                <a href="mailto:support@gobinda101labs.com" class="hover:text-white transition"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com/gobinda101" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p class="text-xs text-slate-600 font-medium uppercase tracking-[0.2em]">&copy; 2026 Gobinda101 Labs. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

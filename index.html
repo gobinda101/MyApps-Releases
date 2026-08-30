@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; }
+        body { font-family: 'Inter', sans-serif; background-color: #0f172a; color: #f8fafc; scroll-behavior: smooth; }
         .glass { background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.1); }
         .hero-gradient { background: radial-gradient(circle at top right, #1e293b, #0f172a); }
-        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3); border-color: #3b82f6; }
+        .card-hover:hover { transform: translateY(-5px); transition: all 0.3s ease; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3); }
+        [v-cloak] { display: none; }
     </style>
 </head>
 <body class="hero-gradient min-h-screen">
@@ -20,14 +21,13 @@
     <nav class="max-w-7xl mx-auto px-6 py-8 flex justify-between items-center">
         <div class="flex items-center space-x-3">
             <div class="bg-blue-600 p-2 rounded-lg">
-                <i class="fas fa-rocket text-xl"></i>
+                <i class="fas fa-rocket text-xl text-white"></i>
             </div>
             <span class="text-2xl font-bold tracking-tight">Gobinda101 <span class="text-blue-500">Labs</span></span>
         </div>
         <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-400">
             <a href="#catalog" class="hover:text-blue-500 transition">Catalog</a>
             <a href="#security" class="hover:text-blue-500 transition">Security</a>
-            <a href="#install" class="hover:text-blue-500 transition">Installation</a>
         </div>
     </nav>
 
@@ -53,97 +53,17 @@
                 <p class="text-slate-400">Official stable releases from our cloud pipeline.</p>
             </div>
             <div class="bg-slate-800/50 px-4 py-2 rounded-full border border-slate-700 text-xs font-semibold text-slate-300">
-                <i class="fas fa-sync-alt fa-spin mr-2 text-blue-500"></i> Auto-Sync Enabled
+                <i class="fas fa-sync-alt fa-spin mr-2 text-blue-500"></i> Live Sync Active
             </div>
         </div>
 
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-
-            <!-- MyMusic Card -->
-            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
-                <div class="flex justify-between items-start mb-6">
-                    <div class="bg-blue-500/10 p-4 rounded-2xl">
-                        <i class="fas fa-music text-3xl text-blue-500"></i>
-                    </div>
-                    <span class="bg-blue-500/10 text-blue-400 text-xs font-bold px-3 py-1 rounded-full border border-blue-500/20">v0.5.4</span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2">MyMusic</h3>
-                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Enterprise-grade audio engine with minimalist Material 3 design and dynamic theming.</p>
-                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Ad-Free Experience</div>
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Material You Support</div>
-                </div>
-                <a href="https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk" class="block text-center bg-white text-slate-900 py-3 rounded-xl font-bold hover:bg-blue-50 transition">Download APK</a>
+        <!-- Dynamic Grid -->
+        <div id="app-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Loading State -->
+            <div class="col-span-full text-center py-20 text-slate-500" id="loading">
+                <i class="fas fa-circle-notch fa-spin text-3xl mb-4"></i>
+                <p>Fetching latest applications...</p>
             </div>
-
-            <!-- PDF Master Card -->
-            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
-                <div class="flex justify-between items-start mb-6">
-                    <div class="bg-orange-500/10 p-4 rounded-2xl">
-                        <i class="fas fa-file-pdf text-3xl text-orange-500"></i>
-                    </div>
-                    <span class="bg-orange-500/10 text-orange-400 text-xs font-bold px-3 py-1 rounded-full border border-orange-500/20">v1.0.3</span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2">PDF Master 101</h3>
-                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Your all-in-one document toolbox. Scan, edit, and convert with AI-powered edge detection.</p>
-                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Offline Processing</div>
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> No Data Collection</div>
-                </div>
-                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
-            </div>
-
-            <!-- HtmlRun Card -->
-            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
-                <div class="flex justify-between items-start mb-6">
-                    <div class="bg-purple-500/10 p-4 rounded-2xl">
-                        <i class="fas fa-code text-3xl text-purple-500"></i>
-                    </div>
-                    <span class="bg-purple-500/10 text-purple-400 text-xs font-bold px-3 py-1 rounded-full border border-purple-500/20">v1.0</span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2">HtmlRun</h3>
-                <p class="text-slate-400 text-sm mb-6 leading-relaxed">High-performance web runtime and IDE for professional mobile-first development.</p>
-                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Intelli-Editor</div>
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> System API Bridge</div>
-                </div>
-                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
-            </div>
-
-            <!-- Chat Master Card -->
-            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
-                <div class="flex justify-between items-start mb-6">
-                    <div class="bg-green-500/10 p-4 rounded-2xl">
-                        <i class="fas fa-comments text-3xl text-green-500"></i>
-                    </div>
-                    <span class="bg-green-500/10 text-green-400 text-xs font-bold px-3 py-1 rounded-full border border-green-500/20">v1.1.1</span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2">Chat Master</h3>
-                <p class="text-slate-400 text-sm mb-6 leading-relaxed">Versatile communication tool for seamless messaging and connection management.</p>
-                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Quick Messaging</div>
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> WhatsApp Bridge</div>
-                </div>
-                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
-            </div>
-
-            <!-- Brain Reminder Card -->
-            <div class="glass p-8 rounded-3xl card-hover border border-slate-700/50">
-                <div class="flex justify-between items-start mb-6">
-                    <div class="bg-pink-500/10 p-4 rounded-2xl">
-                        <i class="fas fa-brain text-3xl text-pink-500"></i>
-                    </div>
-                    <span class="bg-pink-500/10 text-pink-400 text-xs font-bold px-3 py-1 rounded-full border border-pink-500/20">v1.0</span>
-                </div>
-                <h3 class="text-2xl font-bold mb-2">Brain Reminder</h3>
-                <p class="text-slate-400 text-sm mb-6 leading-relaxed">A modern reminder and event tracking application designed for life organization.</p>
-                <div class="space-y-3 mb-8 text-xs font-medium text-slate-300">
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Smart Calendar</div>
-                    <div class="flex items-center"><i class="fas fa-check text-green-500 mr-2"></i> Local Security</div>
-                </div>
-                <a href="https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk" class="block text-center bg-slate-800 text-white py-3 rounded-xl font-bold hover:bg-slate-700 transition">Download APK</a>
-            </div>
-
         </div>
     </section>
 
@@ -154,42 +74,37 @@
                 <span class="text-blue-500 font-bold tracking-widest text-xs uppercase mb-4 block">Security Protocol</span>
                 <h2 class="text-4xl font-extrabold mb-6 leading-tight">Engineered for <span class="text-blue-400">Security & Integrity.</span></h2>
                 <p class="text-slate-400 text-lg mb-8 leading-relaxed">
-                    Every binary distributed by <b>Gobinda101 Labs</b> follows a strict automated security protocol. No manual intervention ensures the code you see is exactly what you run.
+                    Every binary distributed by <b>Gobinda101 Labs</b> follows a strict automated security protocol.
                 </p>
                 <div class="grid grid-cols-2 gap-6">
                     <div class="glass p-6 rounded-2xl">
                         <i class="fas fa-shield-halved text-2xl text-blue-500 mb-3"></i>
-                        <h4 class="font-bold mb-1 text-sm">Signed</h4>
-                        <p class="text-xs text-slate-500 uppercase font-medium">RSA-2048 Bit Keys</p>
+                        <h4 class="font-bold mb-1 text-sm text-white">Signed</h4>
+                        <p class="text-[10px] text-slate-500 uppercase font-bold tracking-widest">RSA-2048 Bit</p>
                     </div>
                     <div class="glass p-6 rounded-2xl">
                         <i class="fas fa-cloud-bolt text-2xl text-blue-500 mb-3"></i>
-                        <h4 class="font-bold mb-1 text-sm">Automated</h4>
-                        <p class="text-xs text-slate-500 uppercase font-medium">GitHub Actions CI/CD</p>
+                        <h4 class="font-bold mb-1 text-sm text-white">Automated</h4>
+                        <p class="text-[10px] text-slate-500 uppercase font-bold tracking-widest">CI/CD Pipeline</p>
                     </div>
                 </div>
             </div>
             <div class="relative">
-                <div class="absolute -inset-4 bg-blue-500/10 blur-3xl rounded-full"></div>
                 <div class="glass p-10 rounded-[3rem] relative border-blue-500/20">
                     <div class="space-y-8">
                         <div class="flex items-center space-x-4">
                             <div class="bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center font-bold">1</div>
-                            <span class="font-semibold">Encrypted Source Push</span>
+                            <span class="font-semibold text-white">Encrypted Source</span>
                         </div>
                         <div class="flex items-center space-x-4">
                             <div class="bg-slate-800 w-10 h-10 rounded-full flex items-center justify-center font-bold">2</div>
-                            <span class="font-semibold text-slate-400">Isolated Cloud Build</span>
-                        </div>
-                        <div class="flex items-center space-x-4">
-                            <div class="bg-slate-800 w-10 h-10 rounded-full flex items-center justify-center font-bold">3</div>
-                            <span class="font-semibold text-slate-400">Cryptographic Signing</span>
+                            <span class="font-semibold text-slate-400">Isolated Build</span>
                         </div>
                         <div class="flex items-center space-x-4">
                             <div class="bg-blue-600/20 border border-blue-500/50 w-10 h-10 rounded-full flex items-center justify-center">
                                 <i class="fas fa-check text-blue-400"></i>
                             </div>
-                            <span class="font-bold text-blue-400 italic underline">Verified Deployment</span>
+                            <span class="font-bold text-blue-400 italic">Verified Distribution</span>
                         </div>
                     </div>
                 </div>
@@ -200,30 +115,62 @@
     <!-- Footer -->
     <footer class="max-w-7xl mx-auto px-6 py-20 text-center border-t border-slate-800 mt-20">
         <div class="flex flex-col items-center">
-            <div class="bg-slate-800/50 p-3 rounded-xl mb-6">
-                <i class="fas fa-rocket text-2xl text-blue-500"></i>
-            </div>
-            <h4 class="text-xl font-bold mb-2 tracking-tight">Gobinda101 Labs</h4>
+            <h4 class="text-xl font-bold mb-2 tracking-tight text-white">Gobinda101 Labs</h4>
             <p class="text-slate-500 text-sm mb-10 max-w-sm">Leading the next wave of minimalist and efficient mobile experiences.</p>
-            <div class="flex space-x-6 text-slate-400 mb-12">
-                <a href="mailto:support@gobinda101labs.com" class="hover:text-white transition"><i class="fas fa-envelope"></i></a>
-                <a href="https://github.com/gobinda101" target="_blank" class="hover:text-white transition"><i class="fab fa-github"></i></a>
-                <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin"></i></a>
-            </div>
-            <p class="text-xs text-slate-600 font-medium uppercase tracking-[0.2em]">&copy; 2026 Gobinda101 Labs. All Rights Reserved.</p>
+            <p class="text-[10px] text-slate-600 font-bold uppercase tracking-[0.3em]">&copy; 2026 Gobinda101 Labs</p>
         </div>
     </footer>
 
     <script>
-        // Smooth scrolling for anchor links
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                document.querySelector(this.getAttribute('href')).scrollIntoView({
-                    behavior: 'smooth'
+        async function loadApps() {
+            try {
+                const response = await fetch('./apps.json?v=' + Date.now());
+                const apps = await response.json();
+                const grid = document.getElementById('app-grid');
+                const loading = document.getElementById('loading');
+
+                loading.style.display = 'none';
+
+                apps.forEach(app => {
+                    const card = document.createElement('div');
+                    card.className = 'glass p-8 rounded-3xl card-hover border border-slate-700/50 flex flex-col';
+
+                    const colorMap = {
+                        blue: 'text-blue-500 bg-blue-500/10 border-blue-500/20',
+                        orange: 'text-orange-500 bg-orange-500/10 border-orange-500/20',
+                        green: 'text-green-500 bg-green-500/10 border-green-500/20',
+                        purple: 'text-purple-500 bg-purple-500/10 border-purple-500/20',
+                        pink: 'text-pink-500 bg-pink-500/10 border-pink-500/20'
+                    };
+
+                    const colorClass = colorMap[app.color] || colorMap.blue;
+                    const badgeColor = colorClass.split(' ')[0] + ' ' + colorClass.split(' ')[1] + ' ' + colorClass.split(' ')[2];
+
+                    card.innerHTML = `
+                        <div class="flex justify-between items-start mb-6">
+                            <div class="${colorClass.split(' ')[1]} p-4 rounded-2xl">
+                                <i class="${app.icon} text-3xl ${colorClass.split(' ')[0]}"></i>
+                            </div>
+                            <span class="${badgeColor} text-[10px] font-black px-3 py-1 rounded-full border">
+                                ${app.version}
+                            </span>
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2 text-white">${app.name}</h3>
+                        <p class="text-slate-400 text-sm mb-6 leading-relaxed flex-grow">${app.description}</p>
+                        <div class="space-y-2 mb-8 text-[11px] font-semibold text-slate-400">
+                            ${app.features.map(f => `<div class="flex items-center"><i class="fas fa-circle text-[4px] text-blue-500 mr-2"></i> ${f}</div>`).join('')}
+                        </div>
+                        <a href="${app.downloadUrl}" class="block text-center bg-blue-600 text-white py-3 rounded-xl font-bold hover:bg-blue-500 transition">Download APK</a>
+                    `;
+                    grid.appendChild(card);
                 });
-            });
-        });
+            } catch (error) {
+                console.error('Error loading apps:', error);
+                document.getElementById('loading').innerHTML = '<p class="text-red-500">Failed to load catalog. Please try again later.</p>';
+            }
+        }
+
+        window.onload = loadApps;
     </script>
 </body>
 </html>

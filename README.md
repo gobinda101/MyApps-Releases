@@ -11,13 +11,22 @@ Welcome to the official distribution point for all my Android applications. Here
 
 | App Name | Category | Latest Version | Status | Download |
 | :--- | :--- | :--- | :--- | :--- |
-| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/PDFMaster-Latest.apk) |
-| **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/ChatMaster-Latest.apk) |
-| **HtmlRun** | Developer Tools | ![Version](https://img.shields.io/github/v/release/gobinda101/MyApps-Releases?label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/latest/download/HtmlRun-Latest.apk) |
+| **PDF Master 101** | Productivity | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=PDFMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-Latest.apk) |
+| **Chat Master** | Communication | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=ChatMaster*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
+| **HtmlRun** | Developer Tools | ![Version](https://img.shields.io/github/v/tag/gobinda101/MyApps-Releases?filter=HtmlRun*&label=v&style=flat-square) | ✅ Stable | [Download APK](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
 
 ---
 
 ## 📂 Featured Apps
+
+### HtmlRun
+A professional HTML Runtime Engine and Code Editor for on-device web development.
+
+**Key Features:**
+- 🚀 **Turbo Engine**: Fast rendering of local HTML/CSS/JS.
+- ✍️ **Built-in IDE**: Full Ace Editor with syntax highlighting.
+- 🌉 **Native Bridge**: Access Android APIs directly from JavaScript.
+- 🎨 **Material 3**: Sleek, modern dashboard with developer profile.
 
 ### Chat Master
 A versatile communication tool designed for seamless messaging and connection management.
@@ -53,4 +62,3 @@ A powerful, all-in-one PDF utility for your Android device. Edit, Convert, Scan,
 
 ---
 © 2026 Gobinda. All rights reserved.
-

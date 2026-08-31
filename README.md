@@ -28,6 +28,7 @@
 | [**`Chat Master`**](./apps/ChatMaster) | 💬 Messaging | ![v1.1.1](https://img.shields.io/badge/v-1.1.1-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
 | [**`HtmlRun`**](./apps/HtmlRun) | 🛠️ Development | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
 | [**`Brain Reminder`**](./apps/BrainReminder) | 🧠 Utilities | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk) |
+| [**`System32`**](./apps/System32) | 🎞️ Multimedia | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/system32/releases/download/v1.0/System32-Latest.apk) |
 
 ---
 

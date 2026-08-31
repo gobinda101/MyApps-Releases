@@ -46,23 +46,23 @@ if (Test-Path $appsJsonPath) {
         $apps | ConvertTo-Json -Depth 10 | Out-File $appsJsonPath -Encoding utf8
     }
 
-    # 3.1 Ensure App-Specific README exists
+    # 3.1 Info System Registry (Powers the website Info button)
     $subAppDir = Join-Path $localRepoPath "apps\$projectName"
     $subReadme = Join-Path $subAppDir "README.md"
     if (-not (Test-Path $subAppDir)) { New-Item -ItemType Directory -Path $subAppDir }
     if (-not (Test-Path $subReadme)) {
-        $template = "# 📦 $projectName`r`n`r`n## Features`r`n- Automated Release`r`n`r`n## Download`r`n[Download APK](https://github.com/gobinda101/MyApps-Releases/raw/main/$projectName-Latest.apk)"
+        $template = "# 📦 $projectName`r`n`r`n## Features`r`n- Automated Release from Gobinda101 Labs`r`n- Securely signed binary`r`n`r`n## Download`r`n[Download APK](https://github.com/gobinda101/MyApps-Releases/raw/main/$projectName-Latest.apk)"
         [System.IO.File]::WriteAllText($subReadme, $template)
     }
 }
 
 # 4. Sync Registry to GitHub
 Set-Location $localRepoPath
-git add README.md apps.json
-git commit -m "Registry: Added $projectName v$version metadata"
+git add README.md apps.json apps/$projectName/README.md
+git commit -m "Registry: Added $projectName v$version metadata and Info (README)"
 git push origin main
 Set-Location $PSScriptRoot
-Write-Host "✅ Phase 1: App registered in README and apps.json."
+Write-Host "✅ Phase 1: App registered in README, apps.json, and Info system."
 ```
 
 ---

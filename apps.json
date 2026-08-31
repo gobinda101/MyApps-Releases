@@ -8,10 +8,7 @@
     "icon": "fas fa-music",
     "color": "blue",
     "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk",
-    "features": [
-      "Ad-Free Experience",
-      "Material You Support"
-    ]
+    "features": ["Ad-Free Experience", "Material You Support"]
   },
   {
     "id": "PDFMaster101",
@@ -22,10 +19,7 @@
     "icon": "fas fa-file-pdf",
     "color": "orange",
     "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk",
-    "features": [
-      "Offline Processing",
-      "No Data Collection"
-    ]
+    "features": ["Offline Processing", "No Data Collection"]
   },
   {
     "id": "ChatMaster",
@@ -36,10 +30,7 @@
     "icon": "fas fa-comments",
     "color": "green",
     "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk",
-    "features": [
-      "Quick Messaging",
-      "WhatsApp Bridge"
-    ]
+    "features": ["Quick Messaging", "WhatsApp Bridge"]
   },
   {
     "id": "HtmlRun",
@@ -50,10 +41,7 @@
     "icon": "fas fa-code",
     "color": "purple",
     "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk",
-    "features": [
-      "Intelli-Editor",
-      "System API Bridge"
-    ]
+    "features": ["Intelli-Editor", "System API Bridge"]
   },
   {
     "id": "BrainReminder",
@@ -64,9 +52,17 @@
     "icon": "fas fa-brain",
     "color": "pink",
     "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk",
-    "features": [
-      "Smart Calendar",
-      "Local Security"
-    ]
+    "features": ["Smart Calendar", "Local Security"]
+  },
+  {
+    "id": "System32",
+    "name": "System32",
+    "category": "Multimedia",
+    "version": "v1.0",
+    "description": "Advanced multimedia intelligence gallery with AI face detection and Media3 playback.",
+    "icon": "fas fa-film",
+    "color": "cyan",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/System32-Latest.apk",
+    "features": ["AI Face Detection", "Media3 (ExoPlayer)", "Document Vault"]
   }
 ]

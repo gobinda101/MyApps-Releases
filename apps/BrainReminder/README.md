@@ -18,4 +18,8 @@
 | **Android** | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/BrainReminder-v1.0-build-12/app-release.apk) |
 
 ---
+## 📩 Contact & Support
+- 🛒 **App Store**: [MyApps-Releases](https://gobinda101.github.io/MyApps-Releases/)
+- 🌐 **Portfolio**: [Gobinda Kumar Sah](https://gobindakumarsah.blogspot.com/)
+
 [⬅️ Back to Catalog](../../README.md)

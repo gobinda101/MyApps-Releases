@@ -15,7 +15,7 @@
 ## 📥 Latest Release
 | Platform | Version | Status | Download |
 | :--- | :--- | :--- | :--- |
-| **Android** | ![v1.0.3](https://img.shields.io/badge/v-1.0.3-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/PDFMaster-v1.0.3/PDFMaster-v1.0.1.apk) |
+| **Android** | ![v1.0.3](https://img.shields.io/badge/v-1.0.3-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/PDFMaster101-Latest.apk) |
 
 ---
 ## 📩 Contact & Support

@@ -15,7 +15,7 @@
 ## 📥 Latest Release
 | Platform | Version | Status | Download |
 | :--- | :--- | :--- | :--- |
-| **Android** | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/HtmlRun-v1.0-build-3/HtmlRun-Latest.apk) |
+| **Android** | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/HtmlRun-Latest.apk) |
 
 ---
 ## 📩 Contact & Support

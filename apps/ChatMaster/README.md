@@ -15,7 +15,7 @@
 ## 📥 Latest Release
 | Platform | Version | Status | Download |
 | :--- | :--- | :--- | :--- |
-| **Android** | ![v1.1.1](https://img.shields.io/badge/v-1.1.1-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/releases/download/ChatMaster-vv1.1.1/ChatMaster-Latest.apk) |
+| **Android** | ![v1.1.1](https://img.shields.io/badge/v-1.1.1-blue) | ✅ Stable | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/ChatMaster-Latest.apk) |
 
 ---
 ## 📩 Contact & Support

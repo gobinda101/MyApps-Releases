@@ -154,6 +154,160 @@
         text-align:center; padding:26px 20px; color: var(--text-faint); font-size:0.82rem;
       }
 
+      /* ================= DEVELOPER CARD ================= */
+      .dev-card-panel {
+        background: linear-gradient(145deg, #ffffff 0%, #f4f7fc 100%);
+        border: 1px solid #dce3ed;
+        border-radius: 20px;
+        padding: 36px 28px;
+        text-align: center;
+        box-shadow: 0 10px 30px rgba(15, 28, 46, 0.04);
+        position: relative;
+        overflow: hidden;
+      }
+      .dev-card-header {
+        max-width: 720px;
+        margin: 0 auto 28px;
+      }
+      .dev-avatar-container {
+        width: 110px;
+        height: 110px;
+        margin: 0 auto 16px;
+        border-radius: 50%;
+        padding: 4px;
+        background: linear-gradient(135deg, var(--gold), var(--navy));
+        box-shadow: 0 8px 24px rgba(15, 28, 46, 0.15);
+      }
+      .dev-avatar-img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .dev-name {
+        font-size: 1.8rem;
+        color: var(--navy);
+        margin: 8px 0 4px;
+        border-bottom: none !important;
+        padding-bottom: 0 !important;
+      }
+      .gold-text { color: var(--gold); }
+      .dev-title {
+        font-size: 0.78rem;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.15em;
+        color: #2563eb;
+        margin-bottom: 16px;
+      }
+      .dev-bio {
+        font-size: 0.95rem;
+        color: var(--text-dim);
+        line-height: 1.7;
+      }
+
+      .dev-skills-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+        gap: 12px;
+        margin-bottom: 28px;
+      }
+      .dev-skill-box {
+        background: rgba(255, 255, 255, 0.85);
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 12px 10px;
+        text-align: center;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.02);
+      }
+      .dev-skill-tag {
+        display: block;
+        font-size: 0.68rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        margin-bottom: 4px;
+      }
+      .dev-skill-tag.android { color: #2563eb; }
+      .dev-skill-tag.web { color: #9333ea; }
+      .dev-skill-tag.security { color: #059669; }
+      .dev-skill-tag.devops { color: #ea580c; }
+      .dev-skill-val {
+        font-size: 0.82rem;
+        font-weight: 700;
+        color: var(--navy);
+        margin: 0;
+      }
+
+      .dev-features-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        gap: 16px;
+        margin-bottom: 28px;
+        text-align: left;
+      }
+      .dev-feature-card {
+        background: #ffffff;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 20px;
+        transition: transform 0.25s ease, border-color 0.25s ease;
+      }
+      .dev-feature-card:hover {
+        transform: translateY(-3px);
+        border-color: var(--gold);
+      }
+      .dev-icon-box {
+        width: 38px;
+        height: 38px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 12px;
+        font-size: 1rem;
+      }
+      .dev-icon-box.blue { background: #eff6ff; color: #2563eb; }
+      .dev-icon-box.purple { background: #faf5ff; color: #9333ea; }
+      .dev-icon-box.emerald { background: #ecfdf5; color: #059669; }
+      .dev-feature-card h3 {
+        font-size: 0.92rem;
+        font-weight: 700;
+        color: var(--navy);
+        margin-bottom: 6px;
+        font-family: 'Inter', sans-serif;
+      }
+      .dev-feature-card p {
+        font-size: 0.82rem;
+        color: var(--text-dim);
+        line-height: 1.5;
+        margin: 0;
+      }
+
+      .dev-actions {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+      .btn-gold {
+        background: var(--gold) !important;
+        color: var(--navy) !important;
+      }
+      .btn-gold:hover {
+        background: var(--navy) !important;
+        color: #ffffff !important;
+      }
+      .btn-outline {
+        background: transparent !important;
+        color: var(--navy) !important;
+        border: 1px solid var(--navy) !important;
+      }
+      .btn-outline:hover {
+        background: var(--navy) !important;
+        color: #ffffff !important;
+      }
+
       @media (max-width:600px){
         .panel { padding:22px; }
         .panel h2 { font-size:1.25rem; }
@@ -227,13 +381,65 @@
       <!-- ===================== MAIN CONTENT ===================== -->
       <main class="content">
 
-        <!-- ABOUT -->
-        <section class="panel">
-          <span class="eyebrow">Studio</span>
-          <h2>About Gobinda101 Labs</h2>
-          <p class="lead">
-            <strong>Gobinda101 Labs</strong> is an independent development studio building Android apps, websites, and digital tools. Focused on clean, functional design and practical utility apps — from PDF readers to productivity tools — built end-to-end in Kotlin and modern web technologies.
-          </p>
+        <!-- DEVELOPER CARD -->
+        <section class="panel dev-card-panel" id="about-developer">
+          <div class="dev-card-header">
+            <div class="dev-avatar-container">
+              <img src="https://i.postimg.cc/tJjnjP3y/gobindaaa.png" alt="Gobinda Kumar Sah" class="dev-avatar-img" />
+            </div>
+            <span class="eyebrow">Developer Profile</span>
+            <h2 class="dev-name">Gobinda Kumar <span class="gold-text">Sah</span></h2>
+            <p class="dev-title"><i class="fas fa-crown" style="color: var(--gold); margin-right: 4px;"></i> Founder of Gobinda101 Labs | Android & Web Developer</p>
+            <p class="dev-bio">
+              An independent developer dedicated to building <strong>high-performance Android applications and digital tools</strong>. With a focus on clean, functional design and modular architecture, I specialize in creating practical utility apps that respect user privacy and security.
+            </p>
+          </div>
+
+          <!-- Skill Badges -->
+          <div class="dev-skills-grid">
+            <div class="dev-skill-box">
+              <span class="dev-skill-tag android">Android</span>
+              <p class="dev-skill-val">Kotlin & Compose</p>
+            </div>
+            <div class="dev-skill-box">
+              <span class="dev-skill-tag web">Web Tech</span>
+              <p class="dev-skill-val">HTML/CSS/JS Expert</p>
+            </div>
+            <div class="dev-skill-box">
+              <span class="dev-skill-tag security">Security</span>
+              <p class="dev-skill-val">RSA-2048 Signing</p>
+            </div>
+            <div class="dev-skill-box">
+              <span class="dev-skill-tag devops">DevOps</span>
+              <p class="dev-skill-val">CI/CD Pipelines</p>
+            </div>
+          </div>
+
+          <!-- Feature Cards -->
+          <div class="dev-features-grid">
+            <div class="dev-feature-card">
+              <div class="dev-icon-box blue"><i class="fas fa-shield-alt"></i></div>
+              <h3>Secure Systems</h3>
+              <p>Implementing advanced security protocols including encrypted sources and isolated build environments.</p>
+            </div>
+            <div class="dev-feature-card">
+              <div class="dev-icon-box purple"><i class="fas fa-microchip"></i></div>
+              <h3>Modern Stack</h3>
+              <p>Using Kotlin Multiplatform, Media3, and AI-powered algorithms for cutting-edge utility tools.</p>
+            </div>
+            <div class="dev-feature-card">
+              <div class="dev-icon-box emerald"><i class="fas fa-leaf"></i></div>
+              <h3>Minimalist Design</h3>
+              <p>Focusing on ad-free, lightweight experiences that put functionality and user-integrity first.</p>
+            </div>
+          </div>
+
+          <!-- Action Links -->
+          <div class="dev-actions">
+            <a href="https://gobindakumarsah.blogspot.com/" target="_blank" class="btn-solid"><i class="fas fa-globe"></i> View Portfolio</a>
+            <a href="https://gobinda101.github.io/MyApps-Releases/" target="_blank" class="btn-solid btn-gold"><i class="fas fa-rocket"></i> App Store</a>
+            <a href="https://github.com/Gobinda101" target="_blank" class="btn-solid btn-outline"><i class="fab fa-github"></i> GitHub</a>
+          </div>
         </section>
 
         <!-- STRATEGIC CORE COMPETENCIES -->

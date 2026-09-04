@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "pdf-master-web-gobinda"
+  },
+  "targets": {
+    "pdf-master-web-gobinda": {
+      "hosting": {
+        "app": [
+          "gobinda101labs"
+        ]
+      }
+    }
+  }
+}

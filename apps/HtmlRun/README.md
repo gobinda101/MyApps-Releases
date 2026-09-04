@@ -19,7 +19,7 @@
 
 ---
 ## 📩 Contact & Support
-- 🛒 **App Store**: [MyApps-Releases](https://gobinda101.github.io/MyApps-Releases/)
+- 🛒 **App Store**: [MyApps-Releases](https://gobinda101labs.web.app/)
 - 🌐 **Portfolio**: [Gobinda Kumar Sah](https://gobindakumarsah.blogspot.com/)
 
 [⬅️ Back to Catalog](../../README.md)

@@ -76,7 +76,7 @@ At **Gobinda101 Labs**, user privacy is our core architectural pillar.
 
 ## 📩 Contact Gobinda101 Labs
 For technical support or inquiries:
-- 🛒 **Official App Store**: [MyApps-Releases](https://gobinda101.github.io/MyApps-Releases/)
+- 🛒 **Official App Store**: [MyApps-Releases](https://gobinda101labs.web.app/)
 - 🌐 **Official Portfolio**: [Gobinda Kumar Sah](https://gobindakumarsah.blogspot.com/)
 
 <div align="center">

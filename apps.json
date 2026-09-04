@@ -1,0 +1,68 @@
+[
+  {
+    "id": "MyMusic",
+    "name": "MyMusic",
+    "category": "Audio/Music",
+    "version": "v0.5.4",
+    "description": "Enterprise-grade audio engine with minimalist Material 3 design and dynamic theming.",
+    "icon": "fas fa-music",
+    "color": "blue",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/MyMusic/MyMusic-Latest.apk",
+    "features": ["Ad-Free Experience", "Material You Support"]
+  },
+  {
+    "id": "PDFMaster101",
+    "name": "PDF Master 101",
+    "category": "Productivity",
+    "version": "v1.0.3",
+    "description": "Your all-in-one document toolbox. Scan, edit, and convert with AI-powered edge detection.",
+    "icon": "fas fa-file-pdf",
+    "color": "orange",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/PDFMaster101/PDFMaster101-Latest.apk",
+    "features": ["Offline Processing", "No Data Collection"]
+  },
+  {
+    "id": "ChatMaster",
+    "name": "Chat Master",
+    "category": "Messaging",
+    "version": "v1.1.1",
+    "description": "Versatile communication tool for seamless messaging and connection management.",
+    "icon": "fas fa-comments",
+    "color": "green",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/ChatMaster/ChatMaster-Latest.apk",
+    "features": ["Quick Messaging", "WhatsApp Bridge"]
+  },
+  {
+    "id": "HtmlRun",
+    "name": "HtmlRun",
+    "category": "Development",
+    "version": "v1.0",
+    "description": "High-performance web runtime and IDE for professional mobile-first development.",
+    "icon": "fas fa-code",
+    "color": "purple",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/HtmlRun/HtmlRun-Latest.apk",
+    "features": ["Intelli-Editor", "System API Bridge"]
+  },
+  {
+    "id": "BrainReminder",
+    "name": "Brain Reminder",
+    "category": "Utilities",
+    "version": "v1.0",
+    "description": "A modern reminder and event tracking application designed for life organization.",
+    "icon": "fas fa-brain",
+    "color": "pink",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/BrainReminder/BrainReminder-Latest.apk",
+    "features": ["Smart Calendar", "Local Security"]
+  },
+  {
+    "id": "System32",
+    "name": "System32",
+    "category": "Multimedia",
+    "version": "v1.0",
+    "description": "Advanced multimedia intelligence gallery with AI face detection and Media3 playback.",
+    "icon": "fas fa-film",
+    "color": "cyan",
+    "downloadUrl": "https://github.com/gobinda101/MyApps-Releases/raw/main/apps/System32/System32-Latest.apk",
+    "features": ["AI Face Detection", "Media3 (ExoPlayer)", "Document Vault"]
+  }
+]

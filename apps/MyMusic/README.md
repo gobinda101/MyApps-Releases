@@ -15,7 +15,7 @@
 ## 📥 Latest Release
 | Platform | Architecture | Version | Download |
 | :--- | :--- | :--- | :--- |
-| **Android** | Universal | ![v0.5.4](https://img.shields.io/badge/v-0.5.4-blue) | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/MyMusic-Latest.apk) |
+| **Android** | Universal | ![v0.5.4](https://img.shields.io/badge/v-0.5.4-blue) | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/apps/MyMusic/MyMusic-Latest.apk) |
 
 ---
 ## 📩 Contact & Support

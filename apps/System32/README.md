@@ -16,7 +16,7 @@
 ## 📥 Latest Release
 | Platform | Architecture | Version | Download |
 | :--- | :--- | :--- | :--- |
-| **Android** | Universal | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/System32-Latest.apk) |
+| **Android** | Universal | ![v1.0](https://img.shields.io/badge/v-1.0-blue) | [**Download APK**](https://github.com/gobinda101/MyApps-Releases/raw/main/apps/System32/System32-Latest.apk) |
 
 ---
 ## 📩 Contact & Support
